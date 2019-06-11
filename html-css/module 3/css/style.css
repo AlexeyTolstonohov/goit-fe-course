@@ -1,0 +1,93 @@
+.wrapper-body {
+  margin: 0;
+  color: #626262;
+}
+
+/*
+  --Menu--
+*/
+
+.wrapper-menu {
+  margin-top: 77px;
+  margin-bottom: 104px;
+}
+
+ul {
+  list-style: none;
+  /*убираем маркеры списка*/
+  margin: 0;
+  /*убираем верхнее и нижнее поле, равное 1em*/
+  padding-left: 0;
+  /*убираем левый отступ, равный 40px*/
+}
+
+a {
+  text-decoration: none;
+  /*убираем подчеркивание текста ссылок*/
+  font-size: 11px;
+  display: block;
+  text-transform: uppercase;
+  /* цвет пункта меню при нажатии #03a9f4 
+       без нажатия цвет #626262*/
+}
+
+a:hover {
+  color: #03a9f4;
+}
+
+li {
+  display: inline-block;
+}
+
+#menu-lifestyle {
+  margin-left: 313px;
+}
+
+#menu-music {
+  margin-left: 124px;
+}
+
+#menu-photodiary {
+  margin-left: 107px;
+}
+
+#menu-travel {
+  margin-left: 97px;
+}
+
+/*
+  --Body--
+*/
+
+.col-left {
+  float: left;
+  display: inline-block;
+  width: 45%;
+  margin-left: 61px;
+}
+
+.col-right {
+  float: right;
+  display: inline-block;
+  width: 45%;
+}
+
+p {
+  width: 80%;
+}
+
+.wrapper-button {
+  width: 100%;
+}
+
+.button {
+  height: 60px;
+  width: 164px;
+  border: 2px solid #626262;
+  background-color: white;
+  text-transform: uppercase;
+  color: #626262;
+  display: inline-block;
+  margin-top: 5%;
+  margin-left: 43.5%;
+}
