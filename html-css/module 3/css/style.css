@@ -23,6 +23,7 @@ a {
   font-size: 11px;
   display: block;
   text-transform: uppercase;
+  color: #626262;
 }
 
 a:hover {
