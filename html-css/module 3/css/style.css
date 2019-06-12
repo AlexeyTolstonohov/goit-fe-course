@@ -14,21 +14,15 @@
 
 ul {
   list-style: none;
-  /*убираем маркеры списка*/
   margin: 0;
-  /*убираем верхнее и нижнее поле, равное 1em*/
   padding-left: 0;
-  /*убираем левый отступ, равный 40px*/
 }
 
 a {
   text-decoration: none;
-  /*убираем подчеркивание текста ссылок*/
   font-size: 11px;
   display: block;
   text-transform: uppercase;
-  /* цвет пункта меню при нажатии #03a9f4 
-       без нажатия цвет #626262*/
 }
 
 a:hover {
@@ -40,7 +34,9 @@ li {
 }
 
 #menu-lifestyle {
-  margin-left: 313px;
+  margin-left: 240px;
+  /* or 313px like in PSD pic
+  but then menu dont located in the center of our page*/
 }
 
 #menu-music {
@@ -64,30 +60,27 @@ li {
   display: inline-block;
   width: 45%;
   margin-left: 61px;
+  margin-bottom: 40px;
 }
 
 .col-right {
   float: right;
   display: inline-block;
   width: 45%;
+  margin-bottom: 40px;
 }
 
 p {
   width: 80%;
 }
 
-.wrapper-button {
-  width: 100%;
-}
-
 .button {
   height: 60px;
   width: 164px;
-  border: 2px solid #626262;
+  border: 1px solid #626262;
   background-color: white;
   text-transform: uppercase;
   color: #626262;
-  display: inline-block;
-  margin-top: 5%;
-  margin-left: 43.5%;
+  display: block;
+  margin: 0 auto 75px;
 }
