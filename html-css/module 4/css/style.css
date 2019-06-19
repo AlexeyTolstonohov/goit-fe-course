@@ -6,16 +6,10 @@ body, p, button {
   color: #626262;
 }
 
-body {
-  margin: 0;
-}
-
 .wrapper {
   width: 900px;
   margin: 0 auto;
 }
-
-
 
 .navigation ul {
   text-align: center;
@@ -48,7 +42,7 @@ body {
   display: inline-block;
   width: 420px;
   font-size: 14px;
-  margin-right: 56px;
+  margin-right: 60px;
   margin-bottom: 130px;
 }
 
@@ -86,5 +80,4 @@ body {
   border: 1px solid;
   padding: 20px 35px;
   margin-bottom: 75px;
-  background-color: rgb(255, 255, 255);
 }
