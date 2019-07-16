@@ -1,83 +1,192 @@
-body, p, button {
-  font-family: 'Playfair display', serif;
-  font-style: 14px;
-  font-weight: 400;
-  line-height: 24px;
-  color: #626262;
+header {
+  padding: 38px 0px;
 }
 
-.wrapper {
-  width: 900px;
-  margin: 0 auto;
+.logo {
+  float: left;
+  margin-left: 157px;
 }
-
-.navigation ul {
-  text-align: center;
+.logo a{
+  font-family: 'Roboto', sans-serif;
+  font-weight: 300;
+  text-decoration: none;
+  font-size: 30px;
+  line-height: 32px;
+  text-transform: uppercase;
+  color: #555252;
 }
-
+.logo:first-letter {
+  font-weight: 900;
+  color: #1abc9c;
+}
 .navigation li {
-  display: inline-block;
-  margin-top: 75px;
-  margin-right: 100px;
-  margin-bottom: 100px;
-}
-
-.navigation li:last-child {
-  margin-right: 0;
+  float: right;
+  margin-right: 34px;
+  line-height: 50px;
 }
 
 .navigation li a {
+  font-family: 'Open Sans', sans-serif;
+  text-decoration: none;
+  font-size: 13pt;
+  font-weight: bold;
   text-transform: uppercase;
+  color: black;
 }
 
-.navigation li a:hover {
-  color: #03a9f4;
+.navigation li:first-child {
+  margin-right: 0px;
 }
 
-.posts-wrap {
-  font-style: 0;
+.navigation a:hover {
+  color: #1abc9c;
 }
 
-.post {
-  display: inline-block;
-  width: 420px;
-  font-size: 14px;
-  margin-right: 60px;
-  margin-bottom: 130px;
+.catalog-products {
+  width: 1110px;
+  margin: 0 auto;
 }
 
-.post:nth-child(even) {
-  margin-right: 0;
+h1 {
+  font-family: 'Roboto Black', sans-serif;
+  font-size: 32pt;
+  color: #515151;
+  text-transform: uppercase;
+  text-align: center;
+  margin-top: 112px;
+  margin-bottom: 32px;
 }
 
-.post:nth-last-child(-n+2) {
-  margin-bottom: 55px;
-}
-
-.post img {
+.line {
   display: block;
-  width: 100%;
-  height: auto;
+  height: 7px;
+  width: 165px;
+  background-color: #1abc9c;
+  margin: 0 auto 80px;
 }
 
-.post .category {
-  font: 300 14px 'Ubuntu', sans-serif;
-  text-transform: uppercase;
-  color: #b4ad9e;
-  margin-top: 26px;
+/*
+* {
+  outline: 1px solid red;
+}
+*/
+
+h3 {
+  font-size: 18pt;
+  margin-top: 18px;
+  margin-bottom: 18px;
+  color: #555252;
+}
+
+.catalog-list-products {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+}
+
+.catalog-item-products {
+  width: 255px;
+  float: left;
+}
+
+.catalog-item-products:not(:nth-child(4n)) {
+  margin-right: 30px;
   margin-bottom: 30px;
 }
 
-.post h3 {
-  font-size: 30px;
-  margin-bottom: 35px;
+.clearfix:after {
+  display: table;
+  content: '';
+  clear: both;
 }
 
-.btn-more {
-  display: block;
-  margin: 0 auto;
-  font-size: 20px;
-  border: 1px solid;
-  padding: 20px 35px;
-  margin-bottom: 75px;
+.name-product-box {
+  width: 201px;
+  height: 40px;
+  background-color: #323232;
+  float: left;
+  margin-top: -3px;
+  display: inline-block;
+  color: #ffffff;
+  text-transform: uppercase;
+  font-size: 13pt;
+  line-height: 40px;
+  text-align: left;
+  font-weight: 600;
+  font-family: 'Roboto', sans-serif;
 }
+
+.space-name-product-box {
+  margin-left: 13px;
+}
+
+.price {
+  width: 54px;
+  height: 40px;
+  background-color: #8c8c8c;
+  float: left;
+  margin-top: -3px;
+  font-size: 13pt;
+  color: #ffffff;
+  text-transform: uppercase;
+  text-align: center;
+  line-height: 40px;
+  vertical-align: middle;
+  font-weight: 700;
+  font-family: 'Roboto', sans-serif;
+}
+
+.catalog-news {
+  width: 1170px;
+  margin: 0 auto;
+}
+
+.catalog-item-news {
+  width: 355px;
+  float: left;
+  margin-left: 30px;
+}
+
+.small-line {
+  width: 136px;
+  height: 3px;
+  display: block;
+  background-color: #1abc9c;
+  margin-bottom: 29px;
+}
+
+p {
+  font-size: 14pt;
+  color: #555252;
+}
+
+button {
+  margin-top: 18px;
+  margin-bottom: 82px;
+  width: 159px;
+  height: 51px;
+  background-color: #4ec6ab;
+  color: #fff;
+  font-size: 16pt;
+  border-radius: 3px;
+  border-color: #fff;
+  border-width: 0px;
+}
+
+/* 
+ //черта под  h1 color #1abc9c
+
+ //цвет темного блока под картинкой 323232
+
+ //цвет светло серый в котором цена 
+
+ // цвет блока светло зелено голубой, в котором картинка e9f0fd
+ // высота блока 282, ширина 255
+ // блок с ценой широкий темно сервый, высота 40 пкс, ширина 201 пкс
+ // блок с ценой свело серый правее темного серого выс 40пкс, шир 54 пкс
+
+
+
+ // блок новости img ш 350 в 262
+ //color: #626262; 
+*/
